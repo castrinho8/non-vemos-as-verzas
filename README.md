@@ -1,6 +1,6 @@
-# Se acerca 1984. La privacidad como modelo de negocio.
+# Se acerca 1984. Privacidad en el mundo real.
 
-http://castrinho8.github.io/privacy-business-models
+https://castrinho8.github.io/privacy-real-world/public/#/portada
 
 ###### Licencia
 *Creative Commons BY-SA*.
