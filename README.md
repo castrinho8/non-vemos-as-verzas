@@ -1,6 +1,6 @@
-# Se acerca 1984. Privacidad en el mundo real.
+# Herramientas para mantener tu privacidad en internet.
 
-https://castrinho8.github.io/privacy-real-world/public/#/portada
+https://castrinho8.github.io/privacy-tools/public/#/portada
 
 ###### Licencia
 *Creative Commons BY-SA*.
