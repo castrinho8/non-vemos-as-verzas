@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>Se acerca 1984. La privacidad en el mundo real.</title>
+   <title>2020, el año de las conspiraciones y la división social. ¿Cómo está pasando esto?</title>
    <meta name="viewport" content="width=1024" />
    <meta name="apple-mobile-web-app-capable" content="yes" />
    <meta charset="utf-8" />
@@ -14,7 +14,7 @@
 
    <link rel="stylesheet" href="reveal.js/css/reveal.css" />
    <link rel="stylesheet" href="css/style.css" id="theme" />
-   <link rel="stylesheet" href="css/own.css" />
+   <link rel="stylesheet" href="css/custom.css" />
       <!-- <link rel="stylesheet" href="css/pdf.css"/> -->
 
    <!-- For syntax highlighting -->
@@ -36,387 +36,412 @@
    <div class="reveal">
       <div class="slides">
 
-        <section id="portada">
-          <h3>Se acerca 1984.</h3>
-          <h3> <em>Herramientas para mantener tu privacidad en internet.</em></h3>
-          <br/>
-          <h4>slides.pablo-castro.es</h4>
+        <section id="portada" data-background="img/background/portada.png">
         </section>
 
         <section>
           <div style="text-align: left">
             <h2>Indice</h2>
-            <h4>1. Intro para asustarnos un poco</h4>
-            <h4>2. Tips para el mundo real</h4>
-            <h4>3. Herramientas libres para aumentar tu privacidad en internet</h4>
+            <h4>1. El mundo pre-crisis</h4>
+            <h4>2. El capitalismo de la vigilancia</h4>
+            <h4>3. Polarización y otros problemas</h4>
+            <h4>4. ¿Qué podemos hacer?</h4>
           </div>
         </section>
 
-        <section>
-          <h4><span class="fa fa-twitter"></span><em> @castrinho18</em></h4>
-          <h4>Frontend <em>developer</em></h4>
-          <h4>Internet freedom <em>activist</em></h4>
-          <aside class="notes">
-            <p>Arengu, GPUL, charlas, hackathons, conferencias</p>
-           </aside>
-        </section>
-
-        <section data-background="img/background/hirikilabs.jpg" data-background-position="70% 70%">
+        <section data-background="img/background/hirikilabs.jpg">
           <img style="padding: 0;" src="img/logos/trackula.svg" width="50%"/>
           <aside class="notes">
-            <p>privacidad, extension mozilla, medialab, irikilabs, denuncias cookies</p>
-           </aside>
-        </section>
-        
-        <section data-background="img/background/bed.jpg" data-background-position="70% 70%">
-          <aside class="notes">
-            <p>apps se enteran => duermes menos de lo habitual</p>
-           </aside>
-        </section>
-        
-        <section data-background="img/background/shower.jpg">
-          <aside class="notes">
-            <p>ducha spotify => Playlist "Mañaneo" de los 90</p>
-            <p>Auriculares Bose mas baratos que sony</p>
-           </aside>
-        </section>
-        
-        <section data-background="img/background/street.jpg">
-          <aside class="notes">
-            <p>google asistant 25 minutos para llegar a currar</p>
-            <p>sprint para bus -> fitbit</p>
-           </aside>
-        </section>
-
-        <section data-background="img/background/bus.jpg">
-          <aside class="notes">
-            <p>tarjeta</p>
-            <p>periodico izquierdas compartes en redes => está claro a quien votarás</p>
-           </aside>
-        </section>
-        
-        <section data-background="img/background/work.jpg">
-          <aside class="notes">
-            <p>whastapp => 2 contactos femeninos, grupo con gifs de gatos</p>
-            <p>pocas ganas de currar -> linkedin</p>
-          </aside>
-        </section>
-        
-        <section data-background="img/background/home.jpg">
-          <aside class="notes">
-            <p>cierran conexiones, vuelve IP de la mañana</p>
-            <p>compartes en redes, basket, musica 90, LIDER antisistema</p>
-          </aside>
-        </section>
-        
-        <section data-background="img/background/netflix.jpg" data-background-position="70% 70%">
-          <aside class="notes">
-            <p>netflix 50 mins</p>
-            <p>roomba plano</p>
-            <p>a la 1 apagan conexiones</p>
-          </aside>
-        </section>
-        
-        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-        
-        <section data-background="img/background/data.jpg">
-          <aside class="notes">
-            <p>monetización empresas</p>
-            <p>capitalismo vigilancia => .com</p>
-          </aside>
-        </section>
-        
-        <section data-background="img/background/cookies.jpg">
-          <h3>Nos espían con <em>cookies</em></h3>
-          <aside class="notes">
-            - usabilidad -> guardar sesion, carrito compra
-          </aside>
-        </section>
-        
-        <section>
-          <h3>Firefox <em>
-            <a href="https://addons.mozilla.org/es/firefox/addon/lightbeam/" target="_blank">Lightbeam</a>
-          </em></h3>
-        </section>
-        
-        <section data-background="white">
-          <h3><em>Les damos toda nuestra vida</em></h3>
-          <div class="image-pack" style="margin-left: -50px;">
-              <p>
-                <img src="img/proyectos/drive.png" width="25%"/>
-                <img src="img/proyectos/dropbox.png" width="20%"/>
-                <img src="img/proyectos/facebook.png" width="15%"/>
-                <img src="img/proyectos/gmail.png" width="25%"/>
-                <img src="img/proyectos/skype.png" width="20%"/>
-                <img src="img/proyectos/whatsapp.gif" width="15%"/>
-                <img src="img/proyectos/windows.png" width="25%"/>
-                <img src="img/proyectos/youtube.png" width="20%"/>
-              </p>
-            </div>
-          </section>
-          
-          <section>
-            <h3>Apps que piden demasiados permisos</h3>
-            <h5><em>Linterna</em> a tu ubicación y a tus fotos</h5>
-            <h5><em>Instagram</em> nos escucha todo el día</h5>
-            <aside class="notes">
-              No lo deberían querer para nada
-            </aside>
-          </section>
-
-          <section data-background="img/background/roomba.jpg">
-          <aside class="notes">
-            <p><a href="https://www.eldiario.es/tecnologia/Roomba-quiere-Google-Amazon-Apple_0_668783418.html" >Google+roomba</a></p>
-            <p>smart home mejor</p>
-          </aside>
-        </section>
-
-        <section data-background="img/background/bin.png">
-          <h3>Nos vigilan hasta las papeleras</h3>
-          <aside class="notes">
-            <p>free a cambio de publi</p>
-            <p>movimientos diarios bluethoot/wifi, escaparate</p>
-            <p>afinidad con otros dispositivos</p>
-          </aside>
-        </section>
-
-        <section data-background="img/background/disney.jpg">
-          <aside class="notes">
-            <p>engancharlos para que compren mas</p>
-            <p>Hooked: How to Build Habit-Forming Products</p>
-            <p>fichan psicologos</p>
-          </aside>
-        </section>
-
-        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-
-        <section>
-          <h3><em>Nosotros somos el producto!</em></h3>
-        </section>
-
-        <section>
-          <h5>Evaluación de riesgo financiero -></h5>
-          <h5><em>Crédito</em></h5>
-          <h5>Probabilidad de fumar o ser obeso -></h5>
-          <h5><em>Seguro sanitario</em></h5>
-          <h5>...</h5>
-          <aside class="notes">
-            <p>- Fintonic</p>
-            <p>- Francesa, depresión, fotos facebook -> rechazó seguro sanitario</p>
-          </aside>
-        </section>
-
-        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-
-        <section>
-          <h3>Muchos datos, <em>quizás demasiados</em></h3>
-          <aside class="notes">
-            <p>- Problema -> existencia de datos, en que manos caeran?</p>
-            <p>- al menos darnos cuenta de esto</p>
-          </aside>
-        </section>
-        
-        <section data-background="img/background/hospital.jpg">
-          <h2><em>Problemas de seguridad</em></h2>
-          <h3>Wannacry - NHS United Kingdom</h3>
-          <h2 style="margin-left: -40px" class="fragment"><a href="https://dayssincelastfacebookscandal.com/" target="_blank">dayssincelastfacebookscandal</a></h2>
-          <aside class="notes">
-            <p>- Web => ultimo escándalo de facebook</p>
+            - medialab + premio aepd
+            - cookies mundo real
+            - techtopias
+            - laescondite
           </aside>
         </section>
 
         <section>
-          <h2><em>Poder empresarial</em></h2>
-          <h3><a href="https://www.elconfidencial.com/mundo/2016-09-20/yihad-terrorismo-yihadista-estado-islamico-google-eeuu_1262373/" target="_blank">Google</a>/<a href="https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds" target="_blank">Facebook</a> influyen en nuestros sentimientos</h3>
+          <h3>El mundo de antes</h3>
           <aside class="notes">
-            <p>- Combatir yihadismo</p>
-            <p>- Cambiar nuestros sentimientos</p>
+            <p>sociedad estable en crecimiento</p>
           </aside>
         </section>
 
-        <section data-background="img/background/protests2.jpg">
-          <h2>Control social</h2>
+        <section data-background="img/background/newspaper.jpg">
           <aside class="notes">
-            <p>- protestas ucrania/venezuela</p>
-            <p>- por relaciones -> sacar quien tiene poder/influencia, incluso apagarlos</p>
-            <p>- Nos venden seguridad -> aceptamos</p>
+            <p>Periodismo creible</p>
           </aside>
         </section>
 
-        <section>
-          <iframe width="760" height="515" src="https://www.youtube-nocookie.com/embed/aE1kA0Jy0Xg?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-          </iframe>
-        </section>
-
-        <section data-background="img/background/big-brother.png">
-        </section>
-
-        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-
-        <section>
-          <h3>2. Tips para el <em>mundo real</em></h3>
-        </section>
-
-        <section>
-          <h3>2.1. <em>Asume que estás controlado</em></h3>
-          <h3>Analizar y perfilar es un estandar en el mundo TIC</h3>
+        <section data-background="img/background/politics.jpg">
           <aside class="notes">
-              todo es TIC asique todo te analiza, si compras aspiradora, coche, smarttv...
-              Google Home, Alexa...
-              <p>webs con grabación de session</p>
-          </aside>
-        </section>
-        
-        <section data-background="img/background/money.jpg">
-          <h3>2.2. <em><a target="_blank" href="http://bbvatourism.vizzuality.com/">Usa efectivo</a></em></h3>
-          <aside class="notes">
-              (en peajes, cuando vas de viaje, ) Visualización Carto BBVA
-              Google + Mastercard
-          </aside>
-        </section>
-        
-        <section data-background="img/background/signature.jpg">
-          <h3>2.3. No des tus datos a cualquiera</h3>
-        </section>
-        
-        <section>
-          <h5>Tarjetas de puntos</h5>
-          <h5>Sorteos</h5>
-          <h5>Recogida de firmas</h5>
-          <h5>Investigaciones de mercado</h5>
-          <h5>...</h5>
-          <aside class="notes">
-              - Lee todo lo que firmas, y rectifica tus datos (muchas veces no necesitan todos tus datos)
-          </aside>
-        </section>
-        
-        <section data-background="img/background/deposit.jpg">
-          <h3>2.4. Usa varios emails/teléfonos/direcciones</h3>
-        </section>
-        
-        <section data-background="img/background/demonstration.jpg">
-          <h3>2.5. Manifestaciones</h3>
-        </section>
-
-        <section>
-          <h5>MOVIL => SIM => Persona concreta</h5>
-          <h5><a target="_blank" href="https://elpais.com/elpais/2018/07/04/tentaciones/1530719812_444986.html">Imágenes panorámicas</a></h5>
-          <h5>Cifrar</h5>
-          <h5>No usar datos biométricos para desbloquear</h5>
-          <h5>...</h5>
-          <aside class="notes">
-            helicóptero triangula e intercepta conexiones
-          </aside>
-        </section>
-        
-        <section data-background="img/background/iris.jpg">
-          <h3>2.6. No compartas datos biométricos</h3>
-          <aside class="notes">
-              Huella del movil, reconocimiento facial, secuenciación del adn...
-              no te los puedes cambiar
-          </aside>
-        </section>
-        
-        <section data-background="img/background/mobile.jpg">
-          <h3>2.7. Tu móvil y tu email</h3><h3>te identifican más que el DNI</h3>
-          <aside class="notes">
+            <p>políticos serios y profesionales</p>
           </aside>
         </section>
 
-        <section>
-          <h5>Desactiva la localización, bluetooth y wifi</h5>
-          <h5>No uses wifis abiertas</h5>
-          <h5>Revisa permisos de tus Apps</h5>
-          <h5>Tapa la cámara y el micro</h5>
+        <section data-background="img/background/science.jpg">
           <aside class="notes">
+            <p>Ciencia super reconocida (doctores, investigadores...)</p>
           </aside>
-        </section>
-
-        <section>
-            <h3>3. Herramientas libres para aumentar tu <em>privacidad en internet</em></h3>
-        </section>
-  
-        <section>
-          <h3>¿Por qué es importante que sean libres?</h3>
-          <div class="fragment">
-            <h5>Se pueden <em>auditar</em></h5>
-            <h5>Se pueden <em>mejorar y arreglar</em></h5>
-            <h5>Se puede <em>distribuir las mejoras</em></h5>
-          </div>
-        </section>
-  
-        <section>
-          <h3>GNU/Linux + Firefox</h3>
-          <h5 class="fragment"><em>Encripta</em> discos duros, móviles, comunicaciones...</h5>
-        </section>
-  
-        <section>
-          <h3>Firefox Containers</h3>
-        </section>
-  
-        <section data-background="img/background/containers.png">
-        </section>
-
-        <section data-background="img/background/containers2.png">
-        </section>
-
-        <section>
-          <h3><em>Firefox plugins</em></h3>
-          <h5>Privacy Badger</h5>
-          <h5>uBlock Origin</h5>
-          <h5>HTTPS Everywhere</h5>
-          <h5>Decentraleyes</h5>
-          <h5>Cookie AutoDelete + Bitwarden</h5>
-        </section>
-
-        <section data-background="img/background/privacybadger.png">
-        </section>
-
-        <section data-background="img/background/ublock.png">
-        </section>
-
-        <section data-background="img/background/httpseverywhere.png">
-        </section>
-
-        <section data-background="img/background/decentraleyes.png">
-        </section>
-
-        <section data-background="img/background/cookieautodelete.png">
-        </section>
-
-        <section data-background="img/background/bitwarden.png">
-        </section>
-
-        <section>
-          <h3>Para usuarios avanzados</h3>
-          <h5>NoScript Security Suite</h5>
-          <h5><a href="https://www.torproject.org/">Tor Browser</a></h5>
-        </section>
-  
-          
-        <section>
-          <h5>Bonus track (OJO, no son libres)</h3>
-          <h5><a href="https://duckduckgo.com/">DuckDuckGo</a></h5>
-          <h5><a href="https://protonmail.com/">ProtonMail</a></h5>
-          <h5><a href="https://justdeleteme.xyz/">JustDeleteMe</a></h5>
-          <h5><a href="https://www.privacytools.io/">privacytools.io</a></h5>
         </section>
 
         <section data-background="">
-          <img src="img/background/1984.jpeg" width="300px" />
+          <h3>Crisis 2007</h3>
           <aside class="notes">
-            luchar para no llegar a 1984
-            desnormalizar el tracking
+            <p>Austeridad, recortes, explotación laboral, descontento</p>
+          </aside>
+        </section>
+
+        <section data-background="img/background/protest.jpeg">
+          <h4>Antivacunas, terraplanismo, 5G, Qanon...</h4>
+          <aside class="notes">
+            <p>Aún es una minoría</p>
+          </aside>
+        </section>
+
+        <section data-background="">
+          <h3>¡La polarización crece!</h3>
+          <aside class="notes">
+            <p>Cada día mas intensa, mas odio y menos empatía.</p>
+            <p>Los politicos la abanderan</p>
+            <p>ej:la monarquía + banderas de españa en la playa</p>
+            <p>Siempre buscamos y resaltamos los puntos de división, no de unión</p>
+          </aside>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section>
+          <h3>¿Por qué surge la <em>polarización extrema</em>?</h3>
+        </section>
+
+        <section data-background="img/background/data.jpg">
+          <aside class="notes">
+            <p>Economía de la atención. 2000 crisis .com</p>
+            <p>Modelos de negocio de empresas</p>
+          </aside>
+        </section>
+
+        <section data-background-color="white" data-background="img/background/google1.png" data-background-size="30%">
+        </section>
+
+        <section data-background-color="white" data-background="img/background/google2.png" data-background-size="100%">
+        </section>
+
+        <section>
+          <h3>2. El capitalismo de la vigilancia</h3>
+        </section>
+
+        <section>
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img1.jpg" data-background-size="70%">
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img2.jpg" data-background-size="70%">
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img3.jpg" data-background-size="70%">
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img4.jpg" data-background-size="70%">
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img5.jpg" data-background-size="70%">
+          <h3>Cómo funciona?</h3>
+        </section>
+
+        <section data-background="img/pictures/img6.jpg" data-background-size="70%">
+        </section>
+
+        <section>
+          <h2>¿Cuáles son <em>sus objetivos</em>?</h2>
+        </section>
+
+        <section>
+          <div style="text-align: left">
+            <h4>1. Predecir lo que harás</h4>
+            <h4>2. Que compres a sus anunciantes</h4>
+            <h4>3. Que te pases el día viendo publicidad</h4>
+          </div>
+        </section>
+
+        <section>
+          <h2>¿Qué <em>técnicas</em> utilizan para conseguirlos?</h2>
+        </section>
+
+        <section>
+          <h3><em>Economía de la atención</em></h3>
+          <h4>Contenido audiovisual o texto corto</h4>
+          <h4>Recomendaciones: <small>Autoplay, a quien seguir...</small></h4>
+          <h4>Notificaciones</h4>
+          <h4>Scroll infinito</h4>
+          <h4>Timeline manipulado</h4>
+          <h4><a href="https://www.goodreads.com/book/show/22668729-hooked" target="_blank" rel="noopener noreferrer">Hooked. <small>How to Build Habit-Forming Products</small></a></h4>
+          <aside class="notes">
+            <p>Conspiraciones y contenido de odio</p>
+            <p>Cayucos o cloacas del estado -> terraplanismo</p>
           </aside>
         </section>
 
         <section>
+          <h3><em>Economía de la <small style="text-decoration: line-through;">atención</small> manipulación</em></h3>
+          <h4><a href="https://www.elconfidencial.com/mundo/2016-09-20/yihad-terrorismo-yihadista-estado-islamico-google-eeuu_1262373/" target="_blank" rel="noopener noreferrer">Google</a>/<a href="https://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds" target="_blank" rel="noopener noreferrer">Facebook</a> influyen en nuestros sentimientos</h4>
+          <aside class="notes">
+            <p>motivos económicos -> genera economía de la manipulación</p>
+          </aside>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section>
+          <h3>3. ¿Cómo empiezas a polarizarte?</h3>
+          <aside class="notes">
+            <p>Desestabilizar -> un cambio social</p>
+            <p>Gente que no se cree la realidad</p>
+            <p>Desestabilizar como negocio</p>
+            <p>Se retroalimentan</p>
+          </aside>
+        </section>
+
+        <section data-background="img/background/stadium.jpg">
+          <h3>Un ejemplo real</h3>
+          <aside class="notes">
+            <p>Pasional pero racional, con la que debates</p>
+            <p>Política no demasiado importancia</p>
+            <p>Abre Twitter por el deporte y se engancha</p>
+            <p>no es capaz de dejarlo</p>
+            <p>los followers que pierde, deja de poder informarse...</p>
+            <p>hábito</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.1 <em>Sembrar dudas</em></h3>
+          <h4>Noticias ciertas y alguna falsa. ej: <a href="https://www.elconfidencial.com/mundo/2020-04-03/rusia-union-europea-propaganda-putin_2531351/" target="_blank" rel="noopener noreferrer">RT</a></h4>
+          <h4>El objetivo es <em>que no diferencies verdad de mentira</em></h4>
+          <aside class="notes">
+            <p>Incluso hackean periódicos fiables para meter noticias falsas sobre la OTAN</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.2 <em>Atacar al periodismo y a las instituciones</em></h3>
+          <h4>Modelos de negocio basados en clickbait</h4>
+          <h4>Segmentación tremenda</h4>
+        </section>
+
+        <section data-background="img/background/good-news.jpg">
+          <aside class="notes">
+            <p>Fútbol -> credibilidad de la prensa</p>
+            <p>Noticias que le cabrean de ese periódico</p>
+            <p>De repente todos son de izquierdas</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.3 <em>Mostrar medios "alternativos"</em></h3>
+          <h4>Cuentan una verdad que no está en los tradicionales</h4>
+          <h4>Problemas claros -> soluciones sencillas</h4>
+          <h4>"Nativos del clickbait"</h4>
+          <aside class="notes">
+            <p>directos, claros, insulto, opinión personal</p>
+            <p>videos y audios, no refutables</p>
+            <h4>Problemas</h4>
+            <p>Levantar un muro no va a parar a los inmigrantes</p>
+            <p>Subir el SMI no es la panacea</p>
+          </aside>
+        </section>
+
+        <section data-background="img/background/fake-news.jpg">
+          <aside class="notes">
+            <p>Noticias que no ve en los "medios de desinformación"</p>
+            <p>Noticias mucho mas "viscerales"</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.4 <em>Aprovechar las "debilidades" las redes</em></h3>
+          <h4>Hashtags = campañas de marketing</h4>
+          <h4>Campañas con <a href="https://elpais.com/tecnologia/2020-05-20/yo-fui-un-bot-las-confesiones-de-un-agente-dedicado-al-engano-en-twitter.html" target="_blank" rel="noopener noreferrer">bots y no bots</a></h4>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.4 <em>Aprovechar las "debilidades" las redes</em></h3>
+          <h4>Burbujas (lo que amas y lo que <a href="https://www.elconfidencial.com/tecnologia/2018-12-20/vox-facebook-redes-sociales-pablo-iglesias-477_1713790/" target="_blank" rel="noopener noreferrer">odias</a>)</h4>
+          <h4>Göbbels: "Una mentira repetida mil veces se convierte en verdad"</h4>
+          <aside class="notes">
+            <p>Convierten algo banal, en un valor, una verdad irrefutable</p>
+          </aside>
+        </section>
+
+        <section data-background="img/background/concentration-camp.jpg">
+          <aside class="notes">
+            <p>"¿No te planteas que igual el video es falso?" - "Lo he visto tantas veces que estoy seguro de que es verdad"</p>
+            <p>Asumes su discurso en pack</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>3.5 <em>Ya no te crees ni a las instituciones ni a la prensa</em></h3>
+        </section>
+
+        <section data-background="img/background/gates.jpg">
+          <aside class="notes">
+            <p>gobierno + prensa = manipulacion ?</p>
+            <p>con refuerzo en redes sociales la ciencia se convierte en el enemigo</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>Es un proceso largo, pero efectivo</h3>
+          <aside class="notes">
+            <p></p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>¿Y cómo nos afecta la economía de la atención <em>a nuestra salud mental</em>?</h3>
+          <aside class="notes">
+            <p></p>
+          </aside>
+        </section>
+
+        <section>
+          <h4>Pérdida de concentración</h4>
+          <h4>Aumento del tecnoestrés</h4>
+          <h4>Peor rendimiento laboral</h4>
+          <h4>Cambio de prioridades sociales (ser reconocido)</h4>
+          <aside class="notes">
+            <p>los hijos de silicon valley no tienen tecnologia</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>Y hay más problemas</h3>
+          <div style="text-align: left;">
+            <h4><em>Economía de la atención/manipulación</em></h4>
+            <ul>
+              <li>
+                <h4>"Influencia" social -> democracia</h4>
+              </li>
+              <li>
+                <h4>Mental</h4>
+              </li>
+            </ul>
+            <h4><em>Economía de la vigilancia</em></h4>
+              <ul>
+                <li>
+                  <h4>Discriminación y sesgos</h4>
+                </li>
+                <li>
+                  <h4>Monetización de la privacidad</h4>
+                </li>
+              </ul>
+          </div>
+          <aside class="notes">
+            <p></p>
+          </aside>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section>
+          <h3>4. ¿Qué podemos hacer?</h3>
+        </section>
+
+        <section>
+          <h3>4.1 <em>Legislación</em></h3>
+          <h4>Empresas responsables de su contenido</h4>
+          <h4>¿Plataformas cifradas?</h4>
+          <h4>Cambiar incentivos (económicos)</h4>
+          <aside class="notes">
+            <p></p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>4.2 <em>Devolver confianza</em></h3>
+          <h4>Periodismo e instituciones de calidad</h4>
+          <h4>Sin clickbait, transparencia, datos abiertos...</h4>
+          <aside class="notes">
+            <p>Cambiar modelos de negocio</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>4.3 <em>Reduce la división</em></h3>
+          <h4>+ racionales, - pasionales</h4>
+          <h4>Lee Wikipedia y <a href="https://www.goodreads.com/book/show/42251475-factfulness?ac=1&from_search=true&qid=BhiK4XN6Pq&rank=1" target="_blank" rel="noopener noreferrer">Factfulness</a></h4>
+          <h4>Diversifica tu timeline</h4>
+          <h4>Rechaza a quien genera división</h4>
+          <h4>No publiques odio, trata de aportar</h4>
+          <aside class="notes">
+            <p>Sigue a gente razonable con la que no estás de acuerdo</p>
+            <p>elimina a intolerantes o dictatoriales</p>
+          </aside>
+        </section>
+
+        <section>
+          <h3>4.4 <em>Libera la mente</em></h3>
+          <h4>Elimina notificaciones</h4>
+          <h4>Desinstala apps nocivas</h4>
+          <h4>Que sea incómodo abrir apps</h4>
+          <aside class="notes">
+          </aside>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section>
+          <h3>Busca alternativas a GAFAM*</h3>
+          <p><small>*Google, Apple, Facebook, Amazon y Microsoft</small></p><br/>
+          <h5><a href="https://www.privacytools.io/" target="_blank" rel="noopener noreferrer">privacytools.io</a></h5>
+          <h5><a href="https://restoreprivacy.com/google-alternatives/" target="_blank" rel="noopener noreferrer">restoreprivacy.com</a></h5>
+        </section>
+
+        <section data-background="img/background/datadetox.jpg">
+          <h3>Haz el <a href="https://www.datadetoxkit.org/ee/home/" target="_blank" rel="noopener noreferrer">Data Detox Kit</a></h3>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section>
+          <h3><em>Mantente informado</em></h3>
+          <div>
+            <a href="https://www.techtopias.com/" target="_blank" rel="noopener noreferrer">
+              <img src="img/logos/techtopias.png" width="200px"/>
+            </a>
+            <a href="https://blog.iuvia.io/es/nada-que-esconder-01-reconocimiento-facial/" target="_blank" rel="noopener noreferrer">
+              <img src="img/logos/nada_que_esconder.jpg" width="170px"/>
+            </a>
+          </div>
+          <div>
+            <a href="https://interferencias.tech/about" target="_blank" rel="noopener noreferrer">
+              <img src="img/logos/interferencias.png" width="200px"/>
+            </a>
+          </div>
+        </section>
+
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+        <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+        <section data-background="img/background/hirikilabs.jpg">
           <h2 style="font-size: 100px">thanks!</h2>
           <br/>
           <h5>
-            <span>@castrinho18 <em>| Pablo Castro</em></span><img class="image-circle" src="img/pablo.jpeg" width="80px" style="vertical-align: middle; padding: 20px">
+            @castrinho18 | <span><a href="http://twitter.com/castrinho18" target="_blank" rel="noopener noreferrer">Pablo Castro</a></span><img class="image-circle" src="img/pablo.jpeg" width="80px" style="vertical-align: middle; padding: 20px">
+            @castrinho8@mastodon.social
           </h5>
-          <small>hello@pablo-castro.es</small>
+          <small>helloworld@pablo-castro.es</small>
         </section>
 
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
@@ -431,8 +456,10 @@
   </div>
   <div style="position:absolute; right: 45px; bottom: 40px;">
     <ul style="clear:both; color: #666">
-      <li>Pablo Castro <a class="tw_cuenta" href="http://twitter.com/castrinho18" target="_blank" style="color: #996">(@castrinho18)</a> </li>
-    </ul>
+      <li style="line-height: 1.2;">Pablo Castro <a class="tw_cuenta" href="http://twitter.com/castrinho18" target="_blank" rel="noopener noreferrer" style="color: #996">(@castrinho18)</a>
+        <br/>
+      <a class="tw_cuenta" href="https://mastodon.social/@castrinho8" target="_blank" rel="noopener noreferrer" style="color: #996">(@castrinho8@mastodon.social)</a></li>
+      </ul>
  </div>
 </footer>
 
