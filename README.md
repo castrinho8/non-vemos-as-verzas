@@ -1,6 +1,4 @@
-# Herramientas para mantener tu privacidad en internet.
-
-https://castrinho8.github.io/privacy-tools/public/#/portada
+# 2020, el año de las conspiraciones y la división social. ¿Cómo está pasando esto?
 
 ###### Licencia
 *Creative Commons BY-SA*.
